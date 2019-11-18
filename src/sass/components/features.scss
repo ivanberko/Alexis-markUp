@@ -1,0 +1,44 @@
+.features {
+  @extend %list;
+  @include flex-center();
+}
+
+.features__item {
+  font-family: $primary-font;
+  font-size: sizeRem(18);
+  font-weight: 500;
+  text-transform: uppercase;
+  min-width: 25%;
+
+  &::before {
+    @extend %image-before;
+    @extend %bg-image-center;
+    width: 40px;
+    height: 40px;
+    margin-bottom: sizeRem(40);
+  }
+
+  &:nth-child(1)::before {
+    background-image: url(../images/1.Header/icon-feature/icon-price.svg);
+  }
+
+  &:nth-child(2)::before {
+    background-image: url(../images/1.Header/icon-feature/icon-time.svg);
+  }
+
+  &:nth-child(3)::before {
+    background-image: url(../images/1.Header/icon-feature/icon-cheack.svg);
+  }
+}
+
+.features__desc--green {
+  color: $accent-green-color;
+}
+
+.features__desc--violet {
+  color: $accent-violet-color;
+}
+
+.features__desc--orange {
+  color: $accent-orange-color;
+}
