@@ -1,0 +1,20 @@
+%button {
+  display: inline-block;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  text-transform: uppercase;
+  outline: none;
+  padding: sizeRem(20) sizeRem(38);
+}
+
+%link {
+  display: block;
+  text-decoration: none;
+}
+
+%list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}

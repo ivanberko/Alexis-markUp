@@ -1,0 +1,8 @@
+$font-title: 'Libre Baskerville', serif;
+$primary-font: 'Poppins', sans-serif;
+$font-sign: 'Sacramento', cursive;
+$size-content: 15;
+
+@function sizeRem($size) {
+  @return $size / $size-content * 1rem;
+}

@@ -2,5 +2,14 @@
  * Все паршалы импортировать в этот файл
  */
 
+@import 'typography.scss';
+@import 'vars.scss';
+@import 'placeholders.scss';
+@import 'mixin.scss';
+
 @import 'normalize.scss';
 @import 'base.scss';
+
+@import 'components/nav.scss';
+@import 'components/site-menu.scss';
+
