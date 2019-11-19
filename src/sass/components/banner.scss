@@ -1,7 +1,7 @@
 .banner {
   width: 100%;
   min-height: 850px;
-  background-image: url(/images/1.Header/background-image2.jpg);
+  background-image: url(../images/1.Header/background-image2.jpg);
   @extend %bg-image-center;
   text-align: center;
   padding: sizeRem(176) 0;
