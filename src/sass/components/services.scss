@@ -1,0 +1,22 @@
+.services {
+  text-align: center;
+  min-height: 824px;
+  background-color: $bgc-grey;
+  padding: sizeRem(144) 0;
+}
+
+.services__title {
+  color: $primary-dark-color;
+  font-family: $font-title;
+  font-size: sizeRem(50);
+  font-weight: 700;
+  margin-bottom: sizeRem(40);
+}
+
+.services__subtitle {
+  color: $primary-grey-color;
+  font-family: $primary-font;
+  font-size: sizeRem(18);
+  font-weight: 400;
+  margin-bottom: sizeRem(80);
+}

@@ -15,4 +15,11 @@
 
 .btn__header--reb {
   background-color: $accent-red-color;
+  transition: background-color 0.3s linear;
+
+  &:hover,
+  &:focus {
+    background-color: darken($accent-red-color, 10%);
+  }
+
 }

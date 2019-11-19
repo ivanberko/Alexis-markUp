@@ -3,7 +3,7 @@
   @include flex-center ($hor: space-between);
   font-family: $primary-font;
   font-size: sizeRem(14);
-  font-weight: 500;
+  font-weight: 600;
   min-width: 736px;
 }
 
@@ -11,4 +11,10 @@
   @extend %link;
   @include flex-center ($hor: space-between);
   color: $secondary-dark-color;
+  transition: color 0.3s linear;
+
+  &:hover,
+  &:focus {
+    color: $accent-red-color;
+  }
 }

@@ -1,0 +1,72 @@
+.services-list {
+  @extend %list;
+  @include flex-center($hor: space-between);
+}
+
+.services-list__card {
+  padding: sizeRem(66) sizeRem(34);
+  max-width: 264px;
+  background-color: $primary-white;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+
+  &:nth-child(1) {
+    border-bottom: 3px solid $accent-red-color;
+  }
+
+  &:nth-child(2) {
+    border-bottom: 3px solid $accent-green-color;
+  }
+
+  &:nth-child(3) {
+    border-bottom: 3px solid $accent-violet-color;
+  }
+
+  &:nth-child(4) {
+    border-bottom: 3px solid $accent-orange-color;
+  }
+}
+
+.services-list__accom {
+  color: $primary-dark-color;
+  font-family: $primary-font;
+  font-size: sizeRem(20);
+  font-weight: 500;
+  margin-bottom: sizeRem(20);
+
+  &--card::before,
+  &--map::before,
+  &--pic::before,
+  &--phone::before {
+    @extend %image-before;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 55px;
+    height: 44px;
+    margin-bottom: sizeRem(32);
+  }
+
+  &--card::before {
+    background-image: url(../../images/3.our-focus/icon-services/icon-card.svg);
+  }
+
+  &--map::before {
+    background-image: url(../../images/3.our-focus/icon-services/icon-map.svg);
+  }
+
+  &--pic::before {
+    background-image: url(../../images/3.our-focus/icon-services/icon-pic.svg);
+  }
+
+  &--phone::before {
+    background-image: url(../../images/3.our-focus/icon-services/icon-phone.svg);
+  }
+}
+
+.services-list__desc {
+  color: $primary-grey-color;
+  font-family: $primary-font;
+  font-size: sizeRem(15);
+  font-weight: 400;
+  line-height: 25px;
+}

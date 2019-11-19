@@ -31,3 +31,11 @@
   display: block;
   margin: 0 auto;
 }
+
+%border-colorful {
+  background: linear-gradient(90deg,
+    #fc5f45 0%, #fc5f45 25%,
+    #38c695 25%, #38c695 50%,
+    #b27cf5 50%, #b27cf5 75%,
+    #feb960 75%, #feb960 100%);
+}
