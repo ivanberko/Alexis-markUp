@@ -1,0 +1,14 @@
+.site-menu {
+  @extend %list;
+  @include flex-center ($hor: space-between);
+  font-family: $primary-font;
+  font-size: sizeRem(14);
+  font-weight: 500;
+  min-width: 736px;
+}
+
+.site-menu__link {
+  @extend %link;
+  @include flex-center ($hor: space-between);
+  color: $secondary-dark-color;
+}

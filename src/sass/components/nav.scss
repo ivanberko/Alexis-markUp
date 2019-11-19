@@ -1,0 +1,4 @@
+.nav {
+  @include flex-center ($hor: space-between);
+  padding: sizeRem(24) 0;
+}

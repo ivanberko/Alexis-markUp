@@ -1,0 +1,18 @@
+.button {
+  margin-bottom: sizeRem(82);
+}
+
+.btn {
+  @extend %button;
+}
+
+.btn__header {
+  color: $primary-white;
+  font-family: $primary-font;
+  font-size: sizeRem(16);
+  font-weight: 600;
+}
+
+.btn__header--reb {
+  background-color: $accent-red-color;
+}
