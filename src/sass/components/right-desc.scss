@@ -1,0 +1,32 @@
+.right-desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 57%;
+  position: absolute;
+  right: 0;
+  padding: 0px 82px;
+  min-height: 550px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+  background-color: $primary-white;
+}
+
+.right-desc__title {
+  color: $primary-dark-color;
+  font-family: $font-title;
+  font-size: sizeRem(50);
+  font-weight: 700;
+  margin-bottom: sizeRem(44);
+}
+
+.right-desc__text {
+  color: $primary-grey-color;
+  font-family: $primary-font;
+  font-size: sizeRem(15);
+  font-weight: 400;
+  line-height: 27px;
+
+  &:first-of-type {
+    margin-bottom: sizeRem(40);
+  }
+}

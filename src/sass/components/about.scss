@@ -1,0 +1,9 @@
+.about {
+  @include flex-center($hor:start);
+  padding: 150px 0;
+  position: relative;
+}
+
+.left-img {
+  max-width: 50%;
+}
