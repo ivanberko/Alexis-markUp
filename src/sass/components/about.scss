@@ -1,5 +1,6 @@
 .about {
   @include flex-center($hor:start);
+  min-height: 1000px;
   padding: 150px 0;
   position: relative;
 }

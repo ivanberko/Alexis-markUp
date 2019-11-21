@@ -1,0 +1,21 @@
+.portfolio {
+  padding: sizeRem(146);
+  background-color: $primary-white;
+  text-align: center;
+}
+
+.portfolio__title {
+  color: $primary-dark-color;
+  font-family: $font-title;
+  font-size: sizeRem(50);
+  font-weight: 700;
+  line-height: sizeRem(80);
+}
+
+.portfolio__subtitle {
+  color: $primary-dark-color;
+  font-family: $primary-font;
+  font-size: sizeRem(18);
+  font-weight: 400;
+  line-height: sizeRem(80);
+}
