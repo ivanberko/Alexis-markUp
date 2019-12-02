@@ -29,7 +29,7 @@ const css = () => {
     .pipe(
       mode.production(
         postcss([
-          usedcss({ html: ['src/index.html'] }),
+          // usedcss({ html: ['src/index.html'] }),
           autoprefixer(),
           cssnano(),
         ]),

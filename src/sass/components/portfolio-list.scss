@@ -1,7 +1,0 @@
-.portfolio-list__row-1 {
-  @extend %list;
-  @include flex-center($hor:space-between);
-  flex-wrap: wrap;
-  margin-bottom: sizeRem(24);
-}
-

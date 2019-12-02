@@ -4,6 +4,10 @@
   &:hover .portfolio-item__hidden {
     opacity: 1;
   }
+
+  &:not(:last-child) {
+    margin-right: sizeRem(24);
+  }
 }
 
 .portfolio-item__hidden {
@@ -33,7 +37,7 @@
   &::before {
     @extend %image-before;
     @extend %border-colorful;
-    width: 360px;
+    width: 100%;
     height: 3px;
   }
 }
@@ -47,6 +51,6 @@
   border: none;
   cursor: pointer;
   outline: none;
-  margin: 0 auto 82px;
+  margin: auto;
 }
 

@@ -1,0 +1,13 @@
+.portfolio-row-1,
+.portfolio-row-2,
+.portfolio-row-3 {
+  @extend %list;
+  @include flex-center($hor:space-between);
+  // flex-wrap: wrap;
+  margin-bottom: sizeRem(24);
+}
+
+.portfolio-row-3 {
+  margin-bottom: 0;
+}
+
