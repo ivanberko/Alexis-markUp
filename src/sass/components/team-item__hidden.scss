@@ -1,10 +1,57 @@
 .team-item__hidden {
-  min-height: 400px;
-  background-image: url(../../images/6.our-team/1Background-for-socials.png);
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
-  padding: 114px 100px 76px;
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 420px;
+  width: 100%;
+  background-color: $primary-white;
+  padding: 76px 100px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+  transition: .3s linear;
+}
+
+.team-item__hidden--first {
+  &::before {
+    content: '';
+    position: absolute;
+    left: 102px;
+    top: -80px;
+    border: 30px solid transparent;
+    border-bottom: 50px solid #ffffff;
+  }
+}
+
+.team-item__hidden--second {
+  &::before {
+    content: '';
+    position: absolute;
+    left: 393px;
+    top: -80px;
+    border: 30px solid transparent;
+    border-bottom: 50px solid #ffffff;
+  }
+}
+
+.team-item__hidden--third {
+  &::before {
+    content: '';
+    position: absolute;
+    left: 684px;
+    top: -80px;
+    border: 30px solid transparent;
+    border-bottom: 50px solid #ffffff;
+  }
+}
+
+.team-item__hidden--fourth {
+  &::before {
+    content: '';
+    position: absolute;
+    left: 975px;
+    top: -80px;
+    border: 30px solid transparent;
+    border-bottom: 50px solid #ffffff;
+  }
 }
 
 .team-item__profile {
@@ -36,6 +83,18 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+  padding-left: sizeRem(24);
+  border-left: 2px solid #efefef;
+  position: relative;
+
+  &::before {
+    @extend %image-before;
+    background-image: url(../../images/6.our-team/icon-social/share.svg);
+    width: 36px;
+    height: 36px;
+    position: absolute;
+    left: -70px;
+  }
 }
 
 .team-item__link {
@@ -44,8 +103,34 @@
   font-family: $primary-font;
   font-size: sizeRem(15);
   font-weight: 400;
+  padding-left: sizeRem(20);
+  position: relative;
 
   &:not(:last-child) {
     margin-bottom: sizeRem(18);
   }
+}
+
+.team-item__link--facebook {
+  background-image: url(../../images/6.our-team/icon-social/Facebook.svg);
+  background-repeat: no-repeat;
+  background-position: 0 center;
+}
+
+.team-item__link--twitter {
+  background-image: url(../../images/6.our-team/icon-social/Twitter.svg);
+  background-repeat: no-repeat;
+  background-position: 0 center;
+}
+
+.team-item__link--linkedIn {
+  background-image: url(../../images/6.our-team/icon-social/LinkedIn.svg);
+  background-repeat: no-repeat;
+  background-position: 0 center;
+}
+
+.team-item__link--instagram {
+  background-image: url(../../images/6.our-team/icon-social/Instagram.svg);
+  background-repeat: no-repeat;
+  background-position: 0 center;
 }
