@@ -1,0 +1,5 @@
+.team-row {
+  @extend %list;
+  @include flex-center($hor: space-between);
+  position: relative;
+}

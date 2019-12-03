@@ -6,3 +6,19 @@ $size-content: 15;
 @function sizeRem($size) {
   @return $size / $size-content * 1rem;
 }
+
+%title {
+  color: $primary-dark-color;
+  font-family: $font-title;
+  font-size: sizeRem(50);
+  font-weight: 700;
+  margin-bottom: sizeRem(40);
+}
+
+%subtitle {
+  color: $primary-grey-color;
+  font-family: $primary-font;
+  font-size: sizeRem(18);
+  font-weight: 400;
+  margin-bottom: sizeRem(80);
+}

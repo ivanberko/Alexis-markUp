@@ -2,8 +2,8 @@
  * Все паршалы импортировать в этот файл
  */
 
-@import 'typography.scss';
 @import 'vars.scss';
+@import 'typography.scss';
 @import 'placeholders.scss';
 @import 'mixin.scss';
 
@@ -36,3 +36,8 @@
 @import 'components/portfolio-row.scss';
 @import 'components/portfolio-item.scss';
 
+// TEAM
+@import 'components/team.scss';
+@import 'components/team-row.scss';
+@import 'components/team-item.scss';
+@import 'components/team-item__hidden.scss';

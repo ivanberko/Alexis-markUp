@@ -1,0 +1,13 @@
+.team {
+  padding: sizeRem(150) 0 sizeRem(550);
+  background-color: $bgc-grey;
+  text-align: center;
+}
+
+.team__title {
+  @extend %title;
+}
+
+.team__subtitle {
+  @extend %subtitle;
+}

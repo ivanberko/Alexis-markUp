@@ -1,0 +1,57 @@
+.team-item {
+  width: 263px;
+  background-color: $primary-white;
+  margin-bottom: sizeRem(10);
+
+  &:nth-child(1) {
+    border-bottom: 3px solid $accent-red-color;
+  }
+
+  &:nth-child(2) {
+    border-bottom: 3px solid $accent-green-color;
+  }
+
+  &:nth-child(3) {
+    border-bottom: 3px solid $accent-violet-color;
+  }
+
+  &:nth-child(4) {
+    border-bottom: 3px solid $accent-orange-color;
+  }
+}
+
+.team-item__photo {
+  margin-bottom: sizeRem(18);
+}
+
+.team-item__name {
+  font-family: $primary-font;
+  font-size: sizeRem(18);
+  font-weight: 500;
+  margin-bottom: sizeRem(12);
+
+  &--red {
+    color: $accent-red-color;
+  }
+
+  &--green {
+    color: $accent-green-color;
+  }
+
+  &--violet {
+    color: $accent-violet-color;
+  }
+
+  &--orange {
+    color: $accent-orange-color;
+  }
+}
+
+.team-item__occupational {
+  color: $primary-grey-color;
+  font-family: $primary-font;
+  font-size: sizeRem(13);
+  font-weight: 400;
+  margin-bottom: sizeRem(24);
+}
+
