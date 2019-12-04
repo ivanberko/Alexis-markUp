@@ -22,7 +22,8 @@
   }
 
   &:hover .team-item__hidden {
-    display: block;
+    visibility: visible;
+    opacity: 1;
   }
 }
 

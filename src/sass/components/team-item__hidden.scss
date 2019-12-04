@@ -1,5 +1,7 @@
 .team-item__hidden {
-  display: none;
+  visibility: hidden;
+  opacity: 0;
+  transition: all .3s linear;
   position: absolute;
   left: 0;
   top: 420px;
