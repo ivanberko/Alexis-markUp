@@ -90,7 +90,7 @@
 
   &::before {
     @extend %image-before;
-    background-image: url(../../images/6.our-team/icon-social/share.svg);
+    background-image: url(../images/6.our-team/icon-social/share.svg);
     width: 36px;
     height: 36px;
     position: absolute;
@@ -113,25 +113,25 @@
 }
 
 .team-item__link--facebook {
-  background-image: url(../../images/6.our-team/icon-social/Facebook.svg);
+  background-image: url(../images/6.our-team/icon-social/Facebook.svg);
   background-repeat: no-repeat;
   background-position: 0 center;
 }
 
 .team-item__link--twitter {
-  background-image: url(../../images/6.our-team/icon-social/Twitter.svg);
+  background-image: url(../images/6.our-team/icon-social/Twitter.svg);
   background-repeat: no-repeat;
   background-position: 0 center;
 }
 
 .team-item__link--linkedIn {
-  background-image: url(../../images/6.our-team/icon-social/LinkedIn.svg);
+  background-image: url(../images/6.our-team/icon-social/LinkedIn.svg);
   background-repeat: no-repeat;
   background-position: 0 center;
 }
 
 .team-item__link--instagram {
-  background-image: url(../../images/6.our-team/icon-social/Instagram.svg);
+  background-image: url(../images/6.our-team/icon-social/Instagram.svg);
   background-repeat: no-repeat;
   background-position: 0 center;
 }
